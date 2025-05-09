@@ -48,34 +48,6 @@ Permite alternar dinamicamente a forma de ordenação das tarefas (por data ou p
 2. Abra o arquivo `index.html` em seu navegador.
 3. Crie tarefas, aplique decoradores, mude a ordenação, exporte para CSV e veja as notificações em ação!
 
-## 📁 Estrutura dos Arquivos
-
-task-manager-design-patterns/
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   ├── app.js
-│   │
-│   ├── models/
-│   │   ├── task.js
-│   │   ├── notification.js
-│   │   └── task-manager.js
-│   │
-│   ├── patterns/
-│   │   ├── factory.js
-│   │   ├── decorator.js
-│   │   ├── observer.js
-│   │   ├── adapter.js
-│   │   └── strategy.js
-│   │
-│   └── ui/
-│       └── ui-controller.js
-│
-└── index.html
-
-
 ## 📚 Demonstração dos Padrões
 
 - **Criar tarefa:** Usa Factory Method e adiciona ao Singleton.
@@ -89,3 +61,9 @@ task-manager-design-patterns/
 - O projeto é 100% front-end e não requer backend.
 - O código está comentado para facilitar o entendimento dos padrões aplicados.
 - O Adapter já exporta o CSV com suporte a caracteres especiais (UTF-8 com BOM).
+
+## 👥 Autores
+
+- [Yan Sabarense](https://github.com/sabarense)
+- [Sophia Carrazza](https://github.com/sophiacarrazza)
+
